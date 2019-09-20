@@ -73,6 +73,7 @@ function CricketScoreKeeper() {
      for (let index = 0; index < wicketCheck.length; index++) {
          const element = wicketCheck[index];
          wickets.element--
+         
      }
   }
 

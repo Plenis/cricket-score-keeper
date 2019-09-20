@@ -40,7 +40,7 @@ app.get("/add", function(req, res){
 
 app.post("/add", function(req, res){
    cricketScoreKeeper.overScoreTotal()
-   res.render("add")
+   res.send("SCORE SHOULD DISPLAY :)")
     res.redirect("/")
 })
 
